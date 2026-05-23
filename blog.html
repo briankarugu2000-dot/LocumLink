@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - LocumLink</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900 flex flex-col min-h-screen">
+    <!--Navbar-->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html#home" class="text-2xl font-bold text-teal-600">
+                LocumLink
+            </a>
+            <ul class="hidden md:flex gap-8 text-gray-700 font-medium mx-auto">
+   <li><a href="index.html#home" class="hover:text-teal-600 transition duration-200">Home</a></li>
+    <li><a href="about.html#about" class="hover:text-teal-600 transition duration-200">About</a></li>
+    <li><a href="index.html#services" class="hover:text-teal-600 transition duration-200">Services</a></li>
+    <li><a href="pricing.html#pricing" class="hover:text-teal-600 transition duration-200">Pricing</a></li>
+    <li><a href="pricing.html#testimonials" class="hover:text-teal-600 transition duration-200">Testimonials</a></li>
+    <li><a href="pricing.html#faq" class="hover:text-teal-600 transition duration-200">FAQ</a></li>
+    <li><a href="blog.html#blog" class="hover:text-teal-600 transition duration-200">Blog</a></li>
+    <li><a href="contact.html#contact" class="hover:text-teal-600 transition duration-200">Contact</a></li> 
+</ul>
+            <!--Button-->
+            <a href="contact.html#contact" class="hidden md:block bg-teal-600 text-white px-5 py-2 rounded-lg hover:bg-teal-700 transition">
+                 Get Started
+            </a>
+            <!--Hamburger Button-->
+            <button class="md:hidden text-3xl text-teal-600">
+               ☰ 
+            </button>
+           
+        </div>
+    </nav>
+
+    <!--Blog Section-->
+    <main id="blog" class="flex-grow pt-32 pb-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="text-center mb-16">
+                <span class="text-sm font-bold uppercase tracking-wider text-teal-600 block mb-2">Insights</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-950 mb-4">Latest Medical Staffing News</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Stay updated with modern healthcare operations and locum trends across Kenya.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                
+                <article class="group cursor-pointer bg-white overflow-hidden rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition">
+                    <div class="h-52 overflow-hidden bg-gray-200">
+                        <img src="images/Assets/photo-1516549655169-df83a0774514.avif" 
+                             alt="Hospital ward setting" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold uppercase tracking-wider text-teal-600">Staffing Systems</span>
+                        <h3 class="text-xl font-bold text-gray-900 mt-2 mb-3 group-hover:text-teal-600 transition">How Kenyan Clinics Are Coping with Emergency Staff Deficits</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">Discover how digital dispatch networks help regional medical centers keep their wings operating safely without unexpected closures.</p>
+                        <span class="text-sm font-bold text-teal-600 group-hover:underline">Read Article →</span>
+                    </div>
+                </article>
+
+                <article class="group cursor-pointer bg-white overflow-hidden rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition">
+                    <div class="h-52 overflow-hidden bg-gray-200">
+                        <img src="images/Assets/photo-1584515979956-d9f6e5d09982.avif" 
+                             alt="Medical professional background" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold uppercase tracking-wider text-teal-600">Career Guide</span>
+                        <h3 class="text-xl font-bold text-gray-900 mt-2 mb-3 group-hover:text-teal-600 transition">The Rise of Freelance Nursing and Flexible Locum Roles</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">More healthcare professionals are shifting focus toward flexibility and secure electronic payouts over rigid traditional hospital roles.</p>
+                        <span class="text-sm font-bold text-teal-600 group-hover:underline">Read Article →</span>
+                    </div>
+                </article>
+
+            </div>
+
+
+            </div>
+        </div>
+    </main>
